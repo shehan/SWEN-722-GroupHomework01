@@ -43,11 +43,30 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_zQZ9KPokEea-voSkiIFxnw" name="StandardCategories" guid="_zQZ9KPokEea-voSkiIFxnw"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_zQZ9KfokEea-voSkiIFxnw" name="CustomCategories" guid="_zQZ9KfokEea-voSkiIFxnw">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_zQZ9KvokEea-voSkiIFxnw" name="Hidden" guid="_zQZ9KvokEea-voSkiIFxnw">
-            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_zQZ9K_okEea-voSkiIFxnw" name="Custom Categories" guid="_zQZ9K_okEea-voSkiIFxnw" categorizedElements="_xkSZQP34EeaIiOklGIuYmg"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_zQZ9K_okEea-voSkiIFxnw" name="Custom Categories" guid="_zQZ9K_okEea-voSkiIFxnw" categorizedElements="_xkSZQP34EeaIiOklGIuYmg _stwMMP95Eea3Sup2AYrLIA _ziE_sP95Eea3Sup2AYrLIA"/>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_xkSZQP34EeaIiOklGIuYmg" name="my_custom_category" guid="_xkSZQP34EeaIiOklGIuYmg" presentationName="My Custom Category" categorizedElements="_6tCXQP0YEeaIiOklGIuYmg _ry8EkP0aEeaIiOklGIuYmg _TcafsPonEea-voSkiIFxnw _-Zq4sP0mEeaIiOklGIuYmg _tJEeIP0nEeaIiOklGIuYmg _kw6vIP0hEeaIiOklGIuYmg _-eQewP0bEeaIiOklGIuYmg _Eg_CMPonEea-voSkiIFxnw _IxgQMP0cEeaIiOklGIuYmg _152_UP0cEeaIiOklGIuYmg _mjU9YP0gEeaIiOklGIuYmg _rakLYP0bEeaIiOklGIuYmg _kFfXEP0iEeaIiOklGIuYmg _68pVAP0iEeaIiOklGIuYmg _c1udYP0lEeaIiOklGIuYmg _qmNnMP0kEeaIiOklGIuYmg _Si8ccP0ZEeaIiOklGIuYmg _31BSMP0hEeaIiOklGIuYmg _fmeTsPolEea-voSkiIFxnw _-n31IP0YEeaIiOklGIuYmg _AqfRwPonEea-voSkiIFxnw _diLxMP0ZEeaIiOklGIuYmg _a0ppYP0YEeaIiOklGIuYmg _Tb9AsP0cEeaIiOklGIuYmg _nHZ2oP0nEeaIiOklGIuYmg _1DCo4P0YEeaIiOklGIuYmg _Igg0kP0hEeaIiOklGIuYmg _IwPD4P0nEeaIiOklGIuYmg __QxKsP0kEeaIiOklGIuYmg _ylXhAP0iEeaIiOklGIuYmg _I0IMwP0kEeaIiOklGIuYmg _ju1VIP0jEeaIiOklGIuYmg _RzDsEP0jEeaIiOklGIuYmg _ivxjcP31EeaIiOklGIuYmg">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_xkSZQP34EeaIiOklGIuYmg" name="my_custom_category" guid="_xkSZQP34EeaIiOklGIuYmg" presentationName="My Custom Category" categorizedElements="_6tCXQP0YEeaIiOklGIuYmg _ry8EkP0aEeaIiOklGIuYmg _TcafsPonEea-voSkiIFxnw _-Zq4sP0mEeaIiOklGIuYmg _tJEeIP0nEeaIiOklGIuYmg _kw6vIP0hEeaIiOklGIuYmg _-eQewP0bEeaIiOklGIuYmg _Eg_CMPonEea-voSkiIFxnw _IxgQMP0cEeaIiOklGIuYmg _152_UP0cEeaIiOklGIuYmg _mjU9YP0gEeaIiOklGIuYmg _rakLYP0bEeaIiOklGIuYmg _kFfXEP0iEeaIiOklGIuYmg _68pVAP0iEeaIiOklGIuYmg _c1udYP0lEeaIiOklGIuYmg _qmNnMP0kEeaIiOklGIuYmg _Si8ccP0ZEeaIiOklGIuYmg _31BSMP0hEeaIiOklGIuYmg _fmeTsPolEea-voSkiIFxnw _-n31IP0YEeaIiOklGIuYmg _AqfRwPonEea-voSkiIFxnw _diLxMP0ZEeaIiOklGIuYmg _a0ppYP0YEeaIiOklGIuYmg _Tb9AsP0cEeaIiOklGIuYmg _nHZ2oP0nEeaIiOklGIuYmg _1DCo4P0YEeaIiOklGIuYmg _Igg0kP0hEeaIiOklGIuYmg _IwPD4P0nEeaIiOklGIuYmg __QxKsP0kEeaIiOklGIuYmg _ylXhAP0iEeaIiOklGIuYmg _I0IMwP0kEeaIiOklGIuYmg _ju1VIP0jEeaIiOklGIuYmg _RzDsEP0jEeaIiOklGIuYmg _ivxjcP31EeaIiOklGIuYmg _GuDMsP93Eea3Sup2AYrLIA _N-sv0P93Eea3Sup2AYrLIA _eQhGkP95Eea3Sup2AYrLIA _lrUrQP95Eea3Sup2AYrLIA">
             <methodElementProperty xmi:id="_ywtJEP34EeaIiOklGIuYmg" name="me_edited" value="true"/>
             <methodElementProperty xmi:id="__MCoYP34EeaIiOklGIuYmg" name="include"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_GuDMsP93Eea3Sup2AYrLIA" name="tasks" guid="_GuDMsP93Eea3Sup2AYrLIA" presentationName="Tasks" categorizedElements="_ry8EkP0aEeaIiOklGIuYmg _1DCo4P0YEeaIiOklGIuYmg _c1udYP0lEeaIiOklGIuYmg _rakLYP0bEeaIiOklGIuYmg _Tb9AsP0cEeaIiOklGIuYmg _kFfXEP0iEeaIiOklGIuYmg _68pVAP0iEeaIiOklGIuYmg _mjU9YP0gEeaIiOklGIuYmg _I0IMwP0kEeaIiOklGIuYmg">
+            <methodElementProperty xmi:id="_IaW9gP93Eea3Sup2AYrLIA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_N-sv0P93Eea3Sup2AYrLIA" name="roles" guid="_N-sv0P93Eea3Sup2AYrLIA" presentationName="Roles" categorizedElements="_TcafsPonEea-voSkiIFxnw _Eg_CMPonEea-voSkiIFxnw _fmeTsPolEea-voSkiIFxnw _AqfRwPonEea-voSkiIFxnw">
+            <methodElementProperty xmi:id="_RK-ekP93Eea3Sup2AYrLIA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_eQhGkP95Eea3Sup2AYrLIA" name="work_products" guid="_eQhGkP95Eea3Sup2AYrLIA" presentationName="Work Products" categorizedElements="_6tCXQP0YEeaIiOklGIuYmg _-Zq4sP0mEeaIiOklGIuYmg _tJEeIP0nEeaIiOklGIuYmg _kw6vIP0hEeaIiOklGIuYmg _-eQewP0bEeaIiOklGIuYmg _IxgQMP0cEeaIiOklGIuYmg _152_UP0cEeaIiOklGIuYmg _hAkYEP0jEeaIiOklGIuYmg _qmNnMP0kEeaIiOklGIuYmg _Si8ccP0ZEeaIiOklGIuYmg _31BSMP0hEeaIiOklGIuYmg _-n31IP0YEeaIiOklGIuYmg _diLxMP0ZEeaIiOklGIuYmg _a0ppYP0YEeaIiOklGIuYmg _nHZ2oP0nEeaIiOklGIuYmg _Igg0kP0hEeaIiOklGIuYmg _IwPD4P0nEeaIiOklGIuYmg __QxKsP0kEeaIiOklGIuYmg _ylXhAP0iEeaIiOklGIuYmg _ju1VIP0jEeaIiOklGIuYmg _RzDsEP0jEeaIiOklGIuYmg">
+            <methodElementProperty xmi:id="_jw3wwP95Eea3Sup2AYrLIA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_lrUrQP95Eea3Sup2AYrLIA" name="guidance" guid="_lrUrQP95Eea3Sup2AYrLIA" presentationName="Guidance" categorizedElements="_ivxjcP31EeaIiOklGIuYmg">
+            <methodElementProperty xmi:id="_putBIP95Eea3Sup2AYrLIA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_stwMMP95Eea3Sup2AYrLIA" name="process" guid="_stwMMP95Eea3Sup2AYrLIA" presentationName="Process">
+            <methodElementProperty xmi:id="_v7AyYP95Eea3Sup2AYrLIA" name="me_edited" value="true"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_N4zc0P9vEeaT_axXx3I86g#_N4zc0f9vEeaT_axXx3I86g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_ziE_sP95Eea3Sup2AYrLIA" name="process_elements" guid="_ziE_sP95Eea3Sup2AYrLIA" presentationName="Process Elements" categorizedElements="_GuDMsP93Eea3Sup2AYrLIA _N-sv0P93Eea3Sup2AYrLIA _eQhGkP95Eea3Sup2AYrLIA _lrUrQP95Eea3Sup2AYrLIA">
+            <methodElementProperty xmi:id="_2p0zwP95Eea3Sup2AYrLIA" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>
