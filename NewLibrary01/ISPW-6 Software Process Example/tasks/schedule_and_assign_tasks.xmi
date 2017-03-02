@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-BJAFPX6OoUsne753ni2szg" name=",_1DCo4P0YEeaIiOklGIuYmg" guid="-BJAFPX6OoUsne753ni2szg" changeDate="2017-02-27T13:34:38.179-0500">
+  <mainDescription>This step is a project management function, and is the first step carried out in this example process. It involves&#xD;
+developing a schedule for the work to be undertaken for this software change, and assigning individual tasks to specific&#xD;
+staff members: specifically, a design engineer and a quality assurance (QA) engineer. The design review is also scheduled,&#xD;
+and participants are assigned to it; the participants will be the design and QA engineer, along with two other software&#xD;
+engineers. Assume that the basic process to be followed in this example is already familiar to the participants; it is&#xD;
+standard procedure for this organization. Consequently, this management step focuses on assignment of resources to the&#xD;
+tasks and estimation of the schedule required for those resources to caw out the tasks.</mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    1. This step can begin as soon as authorization to make the change is granted by the CCB. 2. This step ends when its&#xD;
+    outputs have been provided; assume that all outputs are produced simultaneously.&#xD;
+&lt;/p></keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

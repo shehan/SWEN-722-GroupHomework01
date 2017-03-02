@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:MethodConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_IHbEcP34EeaIiOklGIuYmg" name="New Configuration" guid="_IHbEcP34EeaIiOklGIuYmg">
+  <methodElementProperty xmi:id="_Qo6kYP34EeaIiOklGIuYmg" name="TouchedByConfigEditor" value="true"/>
+  <methodElementProperty xmi:id="_QpArAP34EeaIiOklGIuYmg" name="Config_doneLoadCheckPkgs" value="_ZmixkPolEea-voSkiIFxnw"/>
+  <methodElementProperty xmi:id="_RYp_QP34EeaIiOklGIuYmg" name="me_edited" value="true"/>
+  <methodPluginSelection href="uma://_zQZ9IPokEea-voSkiIFxnw#_zQZ9IPokEea-voSkiIFxnw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_zQZ9IPokEea-voSkiIFxnw#_zQZ9LfokEea-voSkiIFxnw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_zQZ9IPokEea-voSkiIFxnw#_zQZ9LvokEea-voSkiIFxnw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_zQZ9IPokEea-voSkiIFxnw#_ZmixkPolEea-voSkiIFxnw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_zQZ9IPokEea-voSkiIFxnw#_zQZ9IfokEea-voSkiIFxnw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_zQZ9IPokEea-voSkiIFxnw#_zQZ9LPokEea-voSkiIFxnw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_zQZ9IPokEea-voSkiIFxnw#_zQZ9JfokEea-voSkiIFxnw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_zQZ9IPokEea-voSkiIFxnw#_zQZ9IvokEea-voSkiIFxnw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_zQZ9IPokEea-voSkiIFxnw#_zQZ9JPokEea-voSkiIFxnw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_zQZ9IPokEea-voSkiIFxnw#_zQZ9I_okEea-voSkiIFxnw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_zQZ9IPokEea-voSkiIFxnw#_zQZ9J_okEea-voSkiIFxnw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_zQZ9IPokEea-voSkiIFxnw#_zQZ9JvokEea-voSkiIFxnw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_zQZ9IPokEea-voSkiIFxnw#_zQZ9KfokEea-voSkiIFxnw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_zQZ9IPokEea-voSkiIFxnw#_zQZ9KPokEea-voSkiIFxnw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_zQZ9IPokEea-voSkiIFxnw#_zQZ9KvokEea-voSkiIFxnw"/>
+  <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_zQZ9IPokEea-voSkiIFxnw#_xkSZQP34EeaIiOklGIuYmg"/>
+</org.eclipse.epf.uma:MethodConfiguration>

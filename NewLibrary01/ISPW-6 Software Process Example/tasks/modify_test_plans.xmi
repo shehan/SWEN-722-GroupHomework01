@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-57Z75Pz1FVT8TnsSBAh21g" name=",_kFfXEP0iEeaIiOklGIuYmg" guid="-57Z75Pz1FVT8TnsSBAh21g" changeDate="2017-02-27T14:26:44.662-0500">
+  <mainDescription>This step involves the modification of test plans and objectives to include testing of capabilities related to the&#xD;
+requirements change prompting this software modification. These test plans are analogous to software designs. They identify&#xD;
+the functionality and capabilities to be tested, and the approach to be taken.</mainDescription>
+  <keyConsiderations>1. This step can begin as soon as the task has been assigned by the project manager. 2. This step ends when its output has&#xD;
+been provided.</keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

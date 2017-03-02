@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:WorkProductDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-uex-Y2uYc-V8X_bHPO9vZw" name="new_outcome,_152_UP0cEeaIiOklGIuYmg" guid="-uex-Y2uYc-V8X_bHPO9vZw" changeDate="2017-02-27T13:46:31.288-0500">
+  <mainDescription>&lt;p>&#xD;
+    &amp;nbsp;Includes :&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    1. number of defects identified&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2. aggregate effort (to monitor progress)&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:WorkProductDescription>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-GSBkTYj1zhh-DCHyAXsjtA" name=",_68pVAP0iEeaIiOklGIuYmg" guid="-GSBkTYj1zhh-DCHyAXsjtA" changeDate="2017-02-27T14:29:30.955-0500">
+  <mainDescription>This step involves the modification of the actual unit test package for the affected code unit, in accordance with the&#xD;
+modifications made to the test plans and objectives. It will be assumed that the test package contains computer software to&#xD;
+drive and evaluate the unit under test, along with narrative procedures recorded in accompanying computer files. These test&#xD;
+packages are under automated configuration management, and a new version of the unit test package is created when this step&#xD;
+ends. Finally, it is noted that the modified design and/or the source code for this unit may be used as input to this step;&#xD;
+however, this is not always the case. Subsequent iterations of this step may be based upon feedback from testing,&#xD;
+indicating that additional modifications to the unit test package are required.</mainDescription>
+  <keyConsiderations>1. This step can begin as soon as the modify test plans step has completed. 2. This step ends when its output has been&#xD;
+produced. 3. Subsequent iterations (if required) can begin as soon as the test unit step has completed.</keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

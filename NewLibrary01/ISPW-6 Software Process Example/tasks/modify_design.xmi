@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-IMcGR4roJZUzol8YLBIl9A" name=",_rakLYP0bEeaIiOklGIuYmg" guid="-IMcGR4roJZUzol8YLBIl9A" changeDate="2017-02-27T13:37:13.123-0500">
+  <mainDescription>This step involves the modification of the design for the code unit affected by the requirements change. It is a highly&#xD;
+creative task. The modified design will be reviewed, and ultimately implemented in code. This step may also modify the&#xD;
+design based upon feedback from the design review.</mainDescription>
+  <keyConsiderations>1. This step can begin as soon as the task has been assigned by the project manager. 2. Subsequent iterations can begin as&#xD;
+soon as the design review is completed (when the design 3. This step ends when its output has been provided. is not appr</keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

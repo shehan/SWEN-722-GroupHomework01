@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-MnyBjIr3-4XiBBaF49v_IQ" name="unit_testing_checklist,_ivxjcP31EeaIiOklGIuYmg" guid="-MnyBjIr3-4XiBBaF49v_IQ">
+  <sections xmi:id="_q-iUoP31EeaIiOklGIuYmg" name="Code Coverage Attained" guid="_q-iUoP31EeaIiOklGIuYmg">
+    <sectionDescription>If all tests are successfully completed, and 90% coverage attained, then the unit has successfully passed.</sectionDescription>
+  </sections>
+  <sections xmi:id="_a3_SYP32EeaIiOklGIuYmg" name="Automated Code Coverage" guid="_a3_SYP32EeaIiOklGIuYmg"/>
+</org.eclipse.epf.uma:ContentDescription>

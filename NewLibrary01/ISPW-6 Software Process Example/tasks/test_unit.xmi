@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-iIWwTLE6gPQtbWLYEe2moQ" name=",_I0IMwP0kEeaIiOklGIuYmg" guid="-iIWwTLE6gPQtbWLYEe2moQ" changeDate="2017-02-27T14:38:50.796-0500">
+  <mainDescription>&lt;p>&#xD;
+    The entire test package is run before any analysis or further action is taken. Although the unit tests are primarily&#xD;
+    functional, an automated coverage analyzer is employed to determine that adequate test coverage of the unit’s code has&#xD;
+    been achieved; a 90% threshold has been established as acceptable. (see key considerations 2)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In order to confine the problem, assume that either or both of the following are the outcomes of this analysis: the&#xD;
+    source code needs to be modified further, the unit tests need to be modified further. When the indicated modifications&#xD;
+    have been made, the unit can be retested. If the unit passes its tests and meets an acceptable coverage level, then&#xD;
+    this example process has been completed. Steps beyond unit testing, such as integration testing, are beyond the scope&#xD;
+    of the core problem. The project manager is notified that the latest version of the unit code is available for&#xD;
+    integration testing.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>1. This step can begin as soon as both the object code and unit test package are available. 2.&amp;nbsp; If all tests are&#xD;
+successfully completed, and 90% coverage attained, then the unit has successfully passed. When this is not the case, the&#xD;
+design and QA engineers jointly analyze the test results and determine appropriate actions. 3. This step ends when its&#xD;
+outputs have been provided; assume that all outputs are produced simultaneously.</keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

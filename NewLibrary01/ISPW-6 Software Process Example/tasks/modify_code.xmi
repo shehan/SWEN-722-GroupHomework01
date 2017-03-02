@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-oeqfk2Qv56HWo9DpWwUCQg" name=",_mjU9YP0gEeaIiOklGIuYmg" guid="-oeqfk2Qv56HWo9DpWwUCQg" changeDate="2017-02-28T15:25:12.274-0500">
+  <mainDescription>This step deals with a set of objects (entities) whose attributes and interrelationships need to be recorded. Both source&#xD;
+and object code are under automated configuration management. The latest vcrsion of the software unit’s source code&#xD;
+provides the starting point for modification during this process 181 Authorized licensed use limited to: Rochester&#xD;
+Institute of Technology. Downloaded on November 29, 2008 at 15:53 from IEEE Xplore. Restrictions apply. step. Upon&#xD;
+successful compilation, a new version of the unit’s source code is recorded, along with its corresponding object code. In&#xD;
+addition, these must be related to the modified design upon which they are based. Source code information includes the&#xD;
+body, creation timestamp, version information, and engineer responsible for this change. Object code information includes&#xD;
+the body, target system, and creation timestamp. Each source code instance can have multiple corresponding object code&#xD;
+instances. Similarly each design version can relate to multiple source code instances. For each successful compilation of a&#xD;
+given source code instance, it is important to record the timestamp, the compiler version used, all compiler options&#xD;
+selected (e.g., optimizer on, debugging on), any error or warning messages produced, and listings and associated&#xD;
+documentation such as memory maps. &lt;br /></mainDescription>
+  <keyConsiderations>1. This step can begin as soon as the task has been assigned by the project manager. (Thus, it is possible, if not&#xD;
+advisable, to begin coding before the design work has even begun.) The engineer’s discretion determines when this task will&#xD;
+actually commence, if the design has not yet been approved. If this step has not commenced earlier, it will begin when the&#xD;
+design is approved. 2. Modified code released for testing is to reflect the approved modified design. One consequence is&#xD;
+that this step cannot be completed before the modified design has been approved. 3. This step ends when a clean compilation&#xD;
+(no errors) has been accomplished and its output has been provided. 4. Subsequent iterations (if required) can begin as&#xD;
+soon as the test unit step has completed.</keyConsiderations>
+  <purpose>This step involves the implementation of the design changes into code, and compilation of the modified source code into&#xD;
+object code. Implementation is accomplished by modifying existing source code. This step may also be based upon feedback&#xD;
+from testing, indicating that additional source code modifications are required.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

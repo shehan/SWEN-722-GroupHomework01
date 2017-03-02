@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Fpx4sY4uKPDp3n_SAVf7BA" name=",_c1udYP0lEeaIiOklGIuYmg" guid="-Fpx4sY4uKPDp3n_SAVf7BA" changeDate="2017-02-28T15:34:09.283-0500">
+  <mainDescription>This step involves the project manager monitoring progress and status of the work. This is based upon notification of&#xD;
+completion of each step, as well as informal information. While work proceeds according to plan, no action is taken and no&#xD;
+output is developed by this step. On the other hand, deviations from plan can result in rescheduling of tasks. In severe&#xD;
+cases, the project manager may put the entire modification effort on hold, and recommend to the CCB that this change effort&#xD;
+be canceled. The CCB may either concur and cancel the effort, or indicate that it is to be resumed where it left off. In&#xD;
+such cases the affected personnel are notified (by the project manager) as appropriate regarding the resumption or&#xD;
+cancellation of their work on this change.</mainDescription>
+  <keyConsiderations>1. This step can begin as soon as the initial task, schedule and assign tasks, is completed. 2. This step persists&#xD;
+throughout the duration of this process. For the purposes of this example, assume that this task ends (1) when the unit&#xD;
+testing has been successfully completed, or (2) after notifying personnel of cancellation by the CCB.</keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

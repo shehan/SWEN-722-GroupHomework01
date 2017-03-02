@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-XHp0SvVVFUkVS0OOcGUnMw" name="new_role,_Eg_CMPonEea-voSkiIFxnw" guid="-XHp0SvVVFUkVS0OOcGUnMw" changeDate="2017-02-23T19:21:03.371-0500">
+  <skills>Software Design</skills>
+</org.eclipse.epf.uma:RoleDescription>

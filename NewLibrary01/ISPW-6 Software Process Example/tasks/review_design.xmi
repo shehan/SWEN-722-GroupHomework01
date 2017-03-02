@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-_ZnI8lJ7ZFXOAK2eTe8WeA" name=",_Tb9AsP0cEeaIiOklGIuYmg" guid="-_ZnI8lJ7ZFXOAK2eTe8WeA" changeDate="2017-02-28T15:12:43.560-0500">
+  <mainDescription>&lt;p>&#xD;
+    This step involves the formal review of the modified design. It is conducted by a team including the design engineer&#xD;
+    who produced the design modifications.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>1. This step will be carried out when it is scheduled to occur, provided that the modified design is available at that&#xD;
+time. (Note that in cases of delay, the monitor progress step will reschedule the review to a later date.) 2. This step&#xD;
+ends when its outputs have been provided; assume that all outputs are produced simultaneously.</keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>
