@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_zQZ9MfokEea-voSkiIFxnw" guid="_zQZ9MfokEea-voSkiIFxnw">
+    <subManagers xmi:id="_OsTWUP9vEeaT_axXx3I86g" href="uma://_N4zc0P9vEeaT_axXx3I86g#_OsTWUP9vEeaT_axXx3I86g"/>
     <resourceDescriptors xmi:id="_oV13kfolEea-voSkiIFxnw" id="-u2cQtRxLE65yfidA4DTnXQ" uri="roles/project_manager.xmi"/>
     <resourceDescriptors xmi:id="_EhFI0fonEea-voSkiIFxnw" id="-mtmtbAkrsB3MeohjZAC6kA" uri="roles/qa_engineer.xmi"/>
     <resourceDescriptors xmi:id="_Kaa6wvonEea-voSkiIFxnw" id="-XHp0SvVVFUkVS0OOcGUnMw" uri="roles/design_engineer.xmi"/>
@@ -14,6 +15,7 @@
     <resourceDescriptors xmi:id="_YpuMcP0kEeaIiOklGIuYmg" id="-iIWwTLE6gPQtbWLYEe2moQ" uri="tasks/test_unit.xmi"/>
     <resourceDescriptors xmi:id="_P7fmIP0mEeaIiOklGIuYmg" id="-Fpx4sY4uKPDp3n_SAVf7BA" uri="tasks/monitor_progress.xmi"/>
     <resourceDescriptors xmi:id="_wzkOUP31EeaIiOklGIuYmg" id="-MnyBjIr3-4XiBBaF49v_IQ" uri="guidances/checklists/unit_testing_checklist.xmi"/>
+    <resourceDescriptors xmi:id="_OetmQP9vEeaT_axXx3I86g" id="_N4zc0P9vEeaT_axXx3I86g" uri="deliveryprocesses/ChangeManagementProcess/model.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_zQZ9IPokEea-voSkiIFxnw" name="ISPW-6 Software Process Example" guid="_zQZ9IPokEea-voSkiIFxnw">
     <ownedRules xmi:id="_yaNzMP0dEeaIiOklGIuYmg" name="wpState" guid="_yaNzMP0dEeaIiOklGIuYmg" briefDescription="The design is totally approved" body="Unconditional approval"/>
@@ -100,7 +102,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IxgQMP0cEeaIiOklGIuYmg" name="design_review_feedback" guid="_IxgQMP0cEeaIiOklGIuYmg" presentationName="Design Review Feedback" briefDescription="This feedback may be provided prior to the end of the task">
             <methodElementProperty xmi:id="_K_fKsP0cEeaIiOklGIuYmg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Tb9AsP0cEeaIiOklGIuYmg" name="review_design" guid="_Tb9AsP0cEeaIiOklGIuYmg" briefDescription="This step involves the formal review of the modified design. " variabilityType="contributes" variabilityBasedOnElement="_rakLYP0bEeaIiOklGIuYmg" performedBy="_Eg_CMPonEea-voSkiIFxnw _AqfRwPonEea-voSkiIFxnw" mandatoryInput="_-eQewP0bEeaIiOklGIuYmg" output="_IxgQMP0cEeaIiOklGIuYmg _152_UP0cEeaIiOklGIuYmg _-eQewP0bEeaIiOklGIuYmg" additionallyPerformedBy="_fmeTsPolEea-voSkiIFxnw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Tb9AsP0cEeaIiOklGIuYmg" name="review_design" guid="_Tb9AsP0cEeaIiOklGIuYmg" presentationName="Review Design" briefDescription="This step involves the formal review of the modified design. " variabilityType="contributes" variabilityBasedOnElement="_rakLYP0bEeaIiOklGIuYmg" performedBy="_Eg_CMPonEea-voSkiIFxnw _AqfRwPonEea-voSkiIFxnw" mandatoryInput="_-eQewP0bEeaIiOklGIuYmg" output="_IxgQMP0cEeaIiOklGIuYmg _152_UP0cEeaIiOklGIuYmg _-eQewP0bEeaIiOklGIuYmg" additionallyPerformedBy="_fmeTsPolEea-voSkiIFxnw">
             <methodElementProperty xmi:id="_VSWhoP0cEeaIiOklGIuYmg" name="me_edited" value="true"/>
             <presentation xmi:id="-_ZnI8lJ7ZFXOAK2eTe8WeA" href="uma://-_ZnI8lJ7ZFXOAK2eTe8WeA#-_ZnI8lJ7ZFXOAK2eTe8WeA"/>
           </contentElements>
@@ -173,7 +175,9 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zQZ9LfokEea-voSkiIFxnw" name="CapabilityPatterns" guid="_zQZ9LfokEea-voSkiIFxnw"/>
     </methodPackages>
-    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zQZ9LvokEea-voSkiIFxnw" name="DeliveryProcesses" guid="_zQZ9LvokEea-voSkiIFxnw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zQZ9LvokEea-voSkiIFxnw" name="DeliveryProcesses" guid="_zQZ9LvokEea-voSkiIFxnw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_N4zc0P9vEeaT_axXx3I86g" href="uma://_N4zc0P9vEeaT_axXx3I86g#_N4zc0P9vEeaT_axXx3I86g"/>
+    </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zQZ9L_okEea-voSkiIFxnw" name="ProcessContributions" guid="_zQZ9L_okEea-voSkiIFxnw"/>
   </org.eclipse.epf.uma:MethodPlugin>
 </xmi:XMI>

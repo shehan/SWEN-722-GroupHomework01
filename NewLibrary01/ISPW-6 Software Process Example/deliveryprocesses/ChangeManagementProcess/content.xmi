@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-L4q-jH6NQm2-NRNRcM6_dg" name="ChangeManagementProcess,_N4zc0f9vEeaT_axXx3I86g" guid="-L4q-jH6NQm2-NRNRcM6_dg"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Btx6mhRdY1E6LBRFWv6uLg" name="schedule_and_assign_tasks,_k0YAsP9vEeaT_axXx3I86g" guid="-Btx6mhRdY1E6LBRFWv6uLg">
+    <keyConsiderations>&lt;p>&#xD;
+    1. This step can begin as soon as authorization to make the change is granted by the CCB. 2. This step ends when its&#xD;
+    outputs have been provided; assume that all outputs are produced simultaneously.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>This step is a project management function, and is the first step carried out in this example process. It involves&#xD;
+developing a schedule for the work to be undertaken for this software change, and assigning individual tasks to specific&#xD;
+staff members: specifically, a design engineer and a quality assurance (QA) engineer. The design review is also scheduled,&#xD;
+and participants are assigned to it; the participants will be the design and QA engineer, along with two other software&#xD;
+engineers. Assume that the basic process to be followed in this example is already familiar to the participants; it is&#xD;
+standard procedure for this organization. Consequently, this management step focuses on assignment of resources to the&#xD;
+tasks and estimation of the schedule required for those resources to caw out the tasks.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ifN3CZAZbS0850jfsp-BQA" name="monitor_progress,_-zHaoP9vEeaT_axXx3I86g" guid="-ifN3CZAZbS0850jfsp-BQA">
+    <keyConsiderations>1. This step can begin as soon as the initial task, schedule and assign tasks, is completed. 2. This step persists&#xD;
+throughout the duration of this process. For the purposes of this example, assume that this task ends (1) when the unit&#xD;
+testing has been successfully completed, or (2) after notifying personnel of cancellation by the CCB.</keyConsiderations>
+    <refinedDescription>This step involves the project manager monitoring progress and status of the work. This is based upon notification of&#xD;
+completion of each step, as well as informal information. While work proceeds according to plan, no action is taken and no&#xD;
+output is developed by this step. On the other hand, deviations from plan can result in rescheduling of tasks. In severe&#xD;
+cases, the project manager may put the entire modification effort on hold, and recommend to the CCB that this change effort&#xD;
+be canceled. The CCB may either concur and cancel the effort, or indicate that it is to be resumed where it left off. In&#xD;
+such cases the affected personnel are notified (by the project manager) as appropriate regarding the resumption or&#xD;
+cancellation of their work on this change.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ql8Tj8h7VcWv9Ral27J7wA" name="modify_design,_LOcdcP9xEeaT_axXx3I86g" guid="-ql8Tj8h7VcWv9Ral27J7wA">
+    <keyConsiderations>1. This step can begin as soon as the task has been assigned by the project manager. 2. Subsequent iterations can begin as&#xD;
+soon as the design review is completed (when the design 3. This step ends when its output has been provided. is not appr</keyConsiderations>
+    <refinedDescription>This step involves the modification of the design for the code unit affected by the requirements change. It is a highly&#xD;
+creative task. The modified design will be reviewed, and ultimately implemented in code. This step may also modify the&#xD;
+design based upon feedback from the design review.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-m7pOf_cYfkoeXmEHMBttUg" name="modify_test_plans,_LtETIP9xEeaT_axXx3I86g" guid="-m7pOf_cYfkoeXmEHMBttUg">
+    <keyConsiderations>1. This step can begin as soon as the task has been assigned by the project manager. 2. This step ends when its output has&#xD;
+been provided.</keyConsiderations>
+    <refinedDescription>This step involves the modification of test plans and objectives to include testing of capabilities related to the&#xD;
+requirements change prompting this software modification. These test plans are analogous to software designs. They identify&#xD;
+the functionality and capabilities to be tested, and the approach to be taken.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-RSK-F2JPZy8wIjFLeFgtoQ" name="test_unit,_JLuiUP9yEea3Sup2AYrLIA" guid="-RSK-F2JPZy8wIjFLeFgtoQ">
+    <keyConsiderations>1. This step can begin as soon as both the object code and unit test package are available. 2.&amp;nbsp; If all tests are&#xD;
+successfully completed, and 90% coverage attained, then the unit has successfully passed. When this is not the case, the&#xD;
+design and QA engineers jointly analyze the test results and determine appropriate actions. 3. This step ends when its&#xD;
+outputs have been provided; assume that all outputs are produced simultaneously.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The entire test package is run before any analysis or further action is taken. Although the unit tests are primarily&#xD;
+    functional, an automated coverage analyzer is employed to determine that adequate test coverage of the unit’s code has&#xD;
+    been achieved; a 90% threshold has been established as acceptable. (see key considerations 2)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In order to confine the problem, assume that either or both of the following are the outcomes of this analysis: the&#xD;
+    source code needs to be modified further, the unit tests need to be modified further. When the indicated modifications&#xD;
+    have been made, the unit can be retested. If the unit passes its tests and meets an acceptable coverage level, then&#xD;
+    this example process has been completed. Steps beyond unit testing, such as integration testing, are beyond the scope&#xD;
+    of the core problem. The project manager is notified that the latest version of the unit code is available for&#xD;
+    integration testing.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-1Rv_Tp7rilQ0Phusr-fP2w" name="modify_design,_RTDOwP9yEea3Sup2AYrLIA" guid="-1Rv_Tp7rilQ0Phusr-fP2w">
+    <keyConsiderations>1. This step can begin as soon as the task has been assigned by the project manager. 2. Subsequent iterations can begin as&#xD;
+soon as the design review is completed (when the design 3. This step ends when its output has been provided. is not appr</keyConsiderations>
+    <refinedDescription>This step involves the modification of the design for the code unit affected by the requirements change. It is a highly&#xD;
+creative task. The modified design will be reviewed, and ultimately implemented in code. This step may also modify the&#xD;
+design based upon feedback from the design review.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-CkGRq9RGezwvL-RU6SedfQ" name="modify_code,_Y58HoP9yEea3Sup2AYrLIA" guid="-CkGRq9RGezwvL-RU6SedfQ">
+    <keyConsiderations>1. This step can begin as soon as the task has been assigned by the project manager. (Thus, it is possible, if not&#xD;
+advisable, to begin coding before the design work has even begun.) The engineer’s discretion determines when this task will&#xD;
+actually commence, if the design has not yet been approved. If this step has not commenced earlier, it will begin when the&#xD;
+design is approved. 2. Modified code released for testing is to reflect the approved modified design. One consequence is&#xD;
+that this step cannot be completed before the modified design has been approved. 3. This step ends when a clean compilation&#xD;
+(no errors) has been accomplished and its output has been provided. 4. Subsequent iterations (if required) can begin as&#xD;
+soon as the test unit step has completed.</keyConsiderations>
+    <refinedDescription>This step deals with a set of objects (entities) whose attributes and interrelationships need to be recorded. Both source&#xD;
+and object code are under automated configuration management. The latest vcrsion of the software unit’s source code&#xD;
+provides the starting point for modification during this process 181 Authorized licensed use limited to: Rochester&#xD;
+Institute of Technology. Downloaded on November 29, 2008 at 15:53 from IEEE Xplore. Restrictions apply. step. Upon&#xD;
+successful compilation, a new version of the unit’s source code is recorded, along with its corresponding object code. In&#xD;
+addition, these must be related to the modified design upon which they are based. Source code information includes the&#xD;
+body, creation timestamp, version information, and engineer responsible for this change. Object code information includes&#xD;
+the body, target system, and creation timestamp. Each source code instance can have multiple corresponding object code&#xD;
+instances. Similarly each design version can relate to multiple source code instances. For each successful compilation of a&#xD;
+given source code instance, it is important to record the timestamp, the compiler version used, all compiler options&#xD;
+selected (e.g., optimizer on, debugging on), any error or warning messages produced, and listings and associated&#xD;
+documentation such as memory maps. &lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-crWGqtYIsAnJBzY914HL7Q" name="modify_unit_test_package,_am1HQP9yEea3Sup2AYrLIA" guid="-crWGqtYIsAnJBzY914HL7Q">
+    <keyConsiderations>1. This step can begin as soon as the modify test plans step has completed. 2. This step ends when its output has been&#xD;
+produced. 3. Subsequent iterations (if required) can begin as soon as the test unit step has completed.</keyConsiderations>
+    <refinedDescription>This step involves the modification of the actual unit test package for the affected code unit, in accordance with the&#xD;
+modifications made to the test plans and objectives. It will be assumed that the test package contains computer software to&#xD;
+drive and evaluate the unit under test, along with narrative procedures recorded in accompanying computer files. These test&#xD;
+packages are under automated configuration management, and a new version of the unit test package is created when this step&#xD;
+ends. Finally, it is noted that the modified design and/or the source code for this unit may be used as input to this step;&#xD;
+however, this is not always the case. Subsequent iterations of this step may be based upon feedback from testing,&#xD;
+indicating that additional modifications to the unit test package are required.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>
